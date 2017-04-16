@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                xmlns:fancy="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Payment through local bank"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#5e5e5e"
+    />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="how it is done?"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#f1582b"
+    />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="31dp"
+        android:text="Email Id"
+        android:textColor="#5e5e5e"
+      />
+
+    <TextView
+        android:id="@+id/payment_dial_emailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView1"
+        android:layout_alignBottom="@+id/TextView1"
+        android:layout_alignLeft="@+id/payment_two_mobiletv"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="redminfa@gmail.com"
+        android:textColor="#5e5e5e"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView1"
+        android:layout_below="@+id/TextView1"
+        android:layout_marginTop="36dp"
+        android:text="Payment Type"
+        android:textColor="#5e5e5e"
+        />
+
+    <TextView
+        android:id="@+id/payment_dial_two_pay_typ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/payment_dial_emailTv"
+        android:text="click to select"
+        android:textColor="#f1582b"
+        />
+
+    <TextView
+        android:id="@+id/payment_two_mobiletv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView1"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="03321341641"
+        android:textColor="#5e5e5e"
+         />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="Mobile No."
+        android:textColor="#5e5e5e"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/payment_dial_two_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="          "
+        android:textColor="#ffffff" />
+</RelativeLayout>

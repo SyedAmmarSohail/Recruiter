@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22808080"
+    android:orientation="vertical" >
+
+     <TextView
+         android:id="@+id/setting_main_Header"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:gravity="center"
+         android:text="Battery Level"
+         android:background="#FE5722"
+         android:textColor="#ffffff"
+         android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/setting_custom_listview"
+        android:layout_width="match_parent"
+        android:layout_weight="0.60"
+        android:background="#22808080"
+        android:divider="@null"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+   
+
+</LinearLayout>

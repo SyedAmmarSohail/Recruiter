@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="Choose_Options">
+        <item>User</item>
+        <item>Company</item>
+    </string-array>
+</resources>
